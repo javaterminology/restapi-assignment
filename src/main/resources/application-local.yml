@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  
+spring:
+ profiles: local
+ application:
+   name: singtel-restapi-{spring.profiles.active}
+
+
+     
